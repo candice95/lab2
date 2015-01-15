@@ -12,8 +12,8 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 5px groove;
+     background-color: #FFDDBC;
 }
 
 .jumbotron {
@@ -31,4 +31,39 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;	
+}
+
+.project {
+     margin-left: 1px;
+     padding: 2px;
+     background-position: center;
+     background-color: #FFAB8B;
+     font-size: 20px;
+}
+
+h1 {
+     text-align: center;
+     color: #260C66;
+     text-shadow: 5px 5px 5px #8A7CCC;
+     font-family: Arial;
+     font-size: 70px;
+}
+
+h4 {
+     text-align: center;
+     color: #571369;
+     font-size: 28px;
+}
+
+p {
+     color: #4A357F;
+     font-family:Palatino Linotype;
+     font-style: oblique;
+}
+
+#intro{
+     text-align: center;
+     font-style: italic;
+     color: #531C61; 
+     font-family: Book Antiqua; 
 }
